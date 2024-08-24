@@ -16,7 +16,7 @@
 }
 
 .coy-logo {
-    width: 25%;
+    width: 50%;
     margin-left: 2%;
 }
 
@@ -37,6 +37,7 @@
 
 .coy-logo:hover {
     background-color: white;
+    border-radius: 0ch;
 }
 
 button {
@@ -62,7 +63,7 @@ button:hover {
 
 .section-one {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     width: 98.9%;
@@ -70,11 +71,16 @@ button:hover {
 }
 
 .heaith-section {
-    width: 100%;
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+
 }
 
 .health {
-    width: 100%;
+    margin-top: 20%;
+    position: relative;
+    width: 95%;
     letter-spacing: 0.1ch;
     padding-left: 4%;
     padding-top: 3%;
@@ -82,7 +88,7 @@ button:hover {
     border-radius: 1ch;
     background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 29pt;
+    font-size: 28pt;
     color: white;
 }
 
@@ -94,28 +100,50 @@ button:hover {
 }
 
 .word-1 {
-    width: 100%;
+    width: 98%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28pt;
+    font-size: 25pt;
+    margin-left: 1%;
 }
 
 .mark {
-    width: 15%;
+    width: 7%;
 }
 
 .word {
     margin-left: 1%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28pt;
+    font-size: 26pt;
 }
 
 .btn {
-    width: 40%;
+    display: block;
+    width: 80%;
+}
+
+.butt {
+    display: block;
+    width: 100%;
+    border-radius: 1ch;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.butt:hover {
+    background-color: white;
+    color: #3498db;
+    border-bottom-style: groove;
+    border-radius: 2ch;
+    border: solid #3498db;
+    transition-duration: 2s;
+    transition: all .55s;
 }
 
 .doc-image {
-    width: 100%;
+    width: 70%;
+    margin-right: 25%;
+    margin-top: 5%;
 }
 
 .doc {
@@ -248,9 +276,23 @@ button:hover {
     margin-top: 4%;
 }
 
+.img-keep-1 {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 4%;   
+}
+
 .dsc {
     width: 100%;
     margin-top: 35%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+.dsc-1 {
+    width: 100%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
@@ -268,8 +310,8 @@ button:hover {
     margin-top: 10%;
     width: 40%;
     border-radius: 1ch;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 11%;
+    padding-bottom: 11%;
     background-color: blue;
     box-shadow: 3px 3px 3px 10px rgba(0,0,0, 0.1);
 }
@@ -300,7 +342,7 @@ button:hover {
     width: 100%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26pt;
+    font-size: 30pt;
     font-weight: 600;
     color: white;
 }
@@ -500,7 +542,7 @@ button:hover {
     border: 1px solid blue;
     border-radius: 1ch;
     box-shadow: 1px 3px 3px 6px rgba(0,0,0, 0.3);
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 
 input {
@@ -555,18 +597,20 @@ input:hover {
 }
 
 .submit {
-    padding-top: 20%;
-    padding-bottom: 10%;
-    width: 100%;
-    margin-left: 12%;
+    display: block;
+    margin-top: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 20%;
+    margin-left: 40%;
 }
 
 a {
     display: inline-block;
-    color: white;
-    height: 25px;
+    color: wheat;
+    height: 40px;
     width: 5em;
-    font-size: 13pt;
+    font-size: 20pt;
     position: relative;
     overflow: hidden;
     letter-spacing: 2px;
@@ -578,8 +622,9 @@ a {
 span:hover {
     background-color: blue;
     color: cornflowerblue;
-    border: 2px solid white;
+    border: 3px solid red;
     border-style: dashed;
+    border-radius: 5px solid red;
 }
 
 a:hover {
@@ -596,7 +641,7 @@ a span:nth-child(1) {
     left: -100%;
     width: 100%;
     height: 3px;
-    background-color: white;
+    background-color: wheat;
     animation: animate1 1s linear infinite;
 }
   
@@ -671,8 +716,8 @@ a span:nth-child(4) {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    color: aqua;
+    text-decoration: dotted;
   }
   
   .p-menu1{
@@ -682,7 +727,7 @@ a {
   
   .hamburger1 {
     margin-top: 5%;
-    height: 60px;
+    height: 40px;
     display: -ms-grid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -692,11 +737,10 @@ a {
   
   .hamburger1 div {
     background-color: blue;
-    position: relative;
-    width: 5%;
+    width: 100%;
     height: 5px;
-    width: 30%;
-    margin-top: 5px;
+    width: 20%;
+    margin-top: 10px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.5s ease-in-out;
     transition-duration: 1s;
@@ -724,14 +768,14 @@ a {
   }
   
   #toggle1:checked ~ .menu1 {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
   }
   
   
   /* Menu */
   .menu1 {
-    width: 5%;
+    width: 40%;
     background-color: cornflowerblue;
     margin: 0;
     display: -ms-grid;
@@ -741,7 +785,7 @@ a {
     padding: 0;
     list-style: none;
     clear: both;
-    width: auto;
+    width: 20%;
     text-align: center;
     height: 0px;
     overflow: hidden;
@@ -753,10 +797,28 @@ a {
   
   .menu1 a:first-child {
     margin-top: 20px;
+    font-size: 30pt;
   }
   
   .menu1 a:last-child {
     margin-bottom: 40px;
+    font-size: 30pt;
+  }
+
+  .menu1 a:nth-child(2) {
+    font-size: 30pt;
+  }
+
+  .menu1 a:nth-child(3) {
+    font-size: 30pt;
+  }
+
+  .menu1 a:nth-child(4) {
+    font-size: 30pt;
+  }
+
+  .menu1 a:nth-child(5) {
+    font-size: 30pt;
   }
   
   .link1 {
@@ -787,16 +849,19 @@ a {
 }
 
 .white-logo {
-    margin-left: 40%;
-    width: 25%;
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
 }
 
 .footer {
+    width: 72%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
+    margin-left: 14%;
 }
 
 .boldd {
@@ -814,6 +879,15 @@ a {
     color: white;
     text-align: center;
     line-height: 1.5;
+    margin-right: 10%;
+}
+
+ul {
+    margin-left: -30%;
+}
+
+.ul-1{
+    margin-left: -17%;
 }
 
 .links-1 ul {
@@ -834,9 +908,9 @@ a {
     width: 100%;
     text-align: center;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20pt;
+    font-size: 11pt;
 }
 
 
@@ -865,7 +939,17 @@ a {
         margin-left: 2%
     }
 
+    button {
+        display: block;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        margin-top: 0%;
+        font-size: 20pt;
+    }
+
     .section-one {
+        margin-top: 0%;
         width: 90%;
         margin-left: 2%;
         display: flex;
@@ -875,7 +959,8 @@ a {
 
     .health {
         width: 100%;
-        font-size: 12pt;
+        font-size: 14pt;
+        margin-bottom: 10%;
     }
 
     .line {
@@ -885,23 +970,35 @@ a {
     }
 
     .mark {
-        width: 7%;
+        width: 8%;
+    }
+
+    .mark-2 {
+        margin-bottom: 5%;
     }
 
     .word {
         width: 90%;
         margin-left: 1%;
-        font-size: 12pt;
+        font-size: 13pt;
     }
 
     .word-1 {
         width: 100%;
-        font-size: 12pt;
+        font-size: 13pt;
+        margin-left: 0%;
+    }
+
+    .word-2 {
+        width: 100%;
+        font-size: 13pt;
         margin-left: 1%;
+        margin-bottom: 10%;
     }
 
     .doc-image {
         width: 30%;
+        margin-right: 5%;
     }
 
     .doc {
@@ -930,7 +1027,8 @@ a {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between
+        justify-content: space-between;
+        margin-top: 0%;
     }
 
     .how-it {
@@ -939,6 +1037,7 @@ a {
         font-weight: 900;
         text-align: center;
         margin-left: 5%;
+        margin-top: 0%;
     }
 
     .box-one {
@@ -976,7 +1075,8 @@ a {
     .section-three {
         width: 96%;
         margin-left: 2%;
-        margin-right: 2%;        
+        margin-right: 2%;
+        margin-top: 20%;        
     }
 
     .section-wrapper {
@@ -988,21 +1088,23 @@ a {
 
     .num-one {
         width: 13%;
-        padding-bottom: 2%;
-        padding-top: 2%;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
         margin-top: 0%;
     }
 
     .num-two {
+        margin-top: 0%;
         width: 13%;
         padding-top: 3%;
-        padding-bottom: 2.5%;
+        padding-bottom: 3%;
     }
 
     .num-three {
         width: 13%;
-        padding-bottom: 2%;
-        padding-top: 2%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        margin-top: 0%;
     }
 
     .appt {
@@ -1013,9 +1115,9 @@ a {
     }
 
     .img-keep {
-        width: 20%;
-        margin-top: 0%;
-        margin-left: 40%
+        width: 30%;
+        margin-top: 3%;
+        margin-left: 35%
     }
 
     .dsc {
@@ -1026,17 +1128,235 @@ a {
     }
 
     .dsc-1 {
+        font-size: 12pt;
         width: 100%;
         text-align: center;
-        margin-top: 15%;
+        margin-top: 6%;
     }
 
     .img-keep-1 {
-        width: 50%;
+        width: 35%;
+        margin-top: 5%;
     }
+
+    .coy-name {
+        margin-top: 15%;
+    }
+
+    .big {
+        width: 100%;
+        text-align: center;
+        font-size: 25pt;
+        font-weight: 900;
+    }
+
+    .small {
+        font-size: 13pt;
+        margin-top: -2%;
+    }
+
+    .section-four {
+        margin-top: 0%;
+    }
+
+    .order-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .order-one {
+        width: 28%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    .tel {
+        width: 100%;
+        text-align: center;
+        font-size: 20pt;
+    }
+
+    .price {
+        font-size: 15pt;
+    }
+
+    .star {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .wait, .min, .aval, .hour {
+        font-size: 15pt;
+    }
+
+    .review {
+        font-size: 27pt;
+        font-weight: 800;
+        margin-top: 10%;
+    }
+
+    .rv-holder {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .rv-box {
+        width: 30%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 5%;
+    }
+
+    .timi {
+        height: 20%;
+        width: 20%;
+        margin-left: 40%;
+        border-radius: 50%;
+        border-style: inset;
+        border: 4px solid grey;
+    }
+
+    .bigger {
+        width: 100%;
+        text-align: center;
+        font-size: 18pt;
+        font-weight: 900;
+    }
+
+    .twink {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .life {
+        font-size: 13pt;
+    }
+
+    .section-five {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact {
+        font-size: 23pt;
+    }
+
+    .contact-section {
+        padding-top: 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        width: 75%;
+        font-size: 12pt;
+        font-weight: 500;
+        padding-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: dashed;
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    .message {
+        width: 75%;
+        font-size: 12pt;
+        font-weight: 500;
+        padding-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: dashed;
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    .pic-wrapper {
+        width: 50%;
+        margin-top: 0%;
+    }
+
+    .linkup {
+        width: 100%
+    }
+
+    .submit {
+        width: 25%;
+        margin-left: 30%;
+        padding-top: 0.5%;
+        padding-bottom: 0.1%;
+        margin-top: 17%;
+    }
+
+    a {
+        font-size: 13pt;
+        height: 30px;
+        width: 7em;
+        margin-top: 0%;
+    }
+
+    a span:nth-child(1) {
+        background-color: red;
+    }
+
+    a span:nth-child(3) {
+        background-color: red;
+    }
+
+    .section-six {
+        margin-top: 10%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 2px solid wheat;
+
+    }
+
+    .boldd {
+        font-size: 18pt;
+    }
+
+    li {
+        font-size: 13pt;
+    }
+
+    .white-logo {
+        width: 18%;
+        margin-left: 40%;
+        margin-top: 0%;
+    }
+
 
     
 }
+
+
+
+
+
+
 
 @media (min-width:1024px) {
 
@@ -1076,4 +1396,6 @@ a {
         flex-direction: row;
         align-items: center;
     }
+
+
 }

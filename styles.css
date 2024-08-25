@@ -185,7 +185,21 @@ a:hover {
     text-align: center;
 }
 
+.next {
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 18pt;
+}
 
+.next:hover {
+    background-color: antiquewhite;
+    color: blue;
+    transition-duration: 2s;
+    border-style: dashed;
+}
 
 
 
@@ -336,6 +350,11 @@ a:hover {
     .slot {
         font-size: 18pt;
         margin-top: -1%;
+    }
+
+    .next {
+        display: block;
+        margin-left: 50%;
     }
     
     

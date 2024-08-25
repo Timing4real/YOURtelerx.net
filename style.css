@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    height: 100px;
+    height: 80px;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -102,19 +102,30 @@ button:hover {
 .word-1 {
     width: 98%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25pt;
+    font-size: 20pt;
     margin-left: 1%;
 }
 
+.word-2 {
+    width: 98%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    margin-left: 1%;
+}
+
+.mark-2 {
+    width: 9%;
+}
+
 .mark {
-    width: 7%;
+    width: 10%;
 }
 
 .word {
     margin-left: 1%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26pt;
+    font-size: 20pt;
 }
 
 .btn {
@@ -486,8 +497,8 @@ button:hover {
 }
 
 .timi {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 120px;
     border-radius: 50%;
     border: 4px solid goldenrod;
     margin-left: 40%;
@@ -887,7 +898,7 @@ ul {
 }
 
 .ul-1{
-    margin-left: -17%;
+    margin-left: -15%;
 }
 
 .links-1 ul {
@@ -910,7 +921,7 @@ ul {
     color: white;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 
 
@@ -978,7 +989,7 @@ ul {
     }
 
     .word {
-        width: 90%;
+        width: 100%;
         margin-left: 1%;
         font-size: 13pt;
     }
@@ -1215,8 +1226,8 @@ ul {
     }
 
     .timi {
-        height: 20%;
-        width: 20%;
+        height: 25%;
+        width: 13%;
         margin-left: 40%;
         border-radius: 50%;
         border-style: inset;
@@ -1299,17 +1310,17 @@ ul {
     }
 
     .submit {
-        width: 25%;
+        width: 22%;
         margin-left: 30%;
-        padding-top: 0.5%;
-        padding-bottom: 0.1%;
-        margin-top: 17%;
+        padding-top: 1.5%;
+        padding-bottom: 0.5%;
+        margin-top: 12%;
     }
 
     a {
         font-size: 13pt;
-        height: 30px;
-        width: 7em;
+        height: 40px;
+        width: 6em;
         margin-top: 0%;
     }
 
@@ -1347,55 +1358,408 @@ ul {
         margin-left: 40%;
         margin-top: 0%;
     }
-
-
     
 }
 
 
 
-
-
-
-
-@media (min-width:1024px) {
+/*@media (min-width:768px) {
 
     .universal-content {
         width: 100%;
     }
 
     .navbar {
-        width: 96%;
-        padding-right: 4%;
+        width: 98%;
+        padding-right: 2%;
     }
 
-   
     .p-menu1 {
         display: none;
     }
 
     .coy-logo {
-        margin-left: 2%;
+        width: 15%;
+        margin-left: 2%
     }
 
     .items {
-        width: 36%;
+        width: 70%;
+        margin-right: 2%;
+        font-size: 10pt;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     button {
         display: block;
         width: 100%;
-        font-size: 11pt;
+        font-size: 10pt;
     }
 
     .section-one {
-        width: 97%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
+    .health {
+        width: 100%;
+        font-size: 12pt;
+        margin-bottom: 2%;
+    }
+
+    .line {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 11pt;
+    }
+
+    .mark {
+        width: 5%;
+    }
+
+    .mark-2 {
+        margin-bottom: 4%;
+    }
+
+    .word {
+        width: 100%;
+        margin-left: 1%;
+        font-size: 10pt;
+    }
+
+    .word-1 {
+        width: 100%;
+        font-size: 10pt;
+        margin-left: 1%;
+    }
+
+    .word-2 {
+        width: 100%;
+        font-size: 10pt;
+        margin-left: 1%;
+        margin-bottom: 10%;
+    }
+
+    .doc-image {
+        width: 25%;
+        margin-right: 5%;
+    }
+
+    .section-two {
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+
+    .info-boxes {
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .how-it {
+        width: 100%;
+        font-size: 20pt;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .box-one {
+        width: 30%;
+        padding-bottom: 8%;
+        padding-top: 8%;
+    }
+
+    .box-two {
+        width: 30%;
+    }
+
+    .box-three {
+        width: 30%;
+    }
+
+    .info-img {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .bold {
+        width: 100%;
+        font-size: 11pt;
+    }
+
+    .info {
+        width: 80%;
+        font-size: 10pt;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .section-three {
+        width: 90%;
+        margin-top: 15%;        
+    }
+
+    .section-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .num-one {
+        width: 10%;
+        padding-bottom: 0.5%;
+        padding-top: 0.5%;
+    }
+
+    .num-two {
+        width: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .num-three {
+        width: 10%;
+        padding-bottom: 0.5%;
+        padding-top: 0.5%;
+    }
+
+    .appt {
+        width: 100%;
+        text-align: center;
+        font-size: 12pt;
+        font-weight: 500;
+    }
+
+    .img-keep {
+        width: 30%;
+        margin-top: 3%;
+    }
+
+    .dsc {
+        width: 100%;
+        text-align: center;
+        font-size: 12pt;
+        margin-top: 30%;
+    }
+
+    .dsc-1 {
+        font-size: 12pt;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-keep-1 {
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .coy-name {
+        margin-top: 15%;
+    }
+
+    .big {
+        width: 100%;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: 800;
+    }
+
+    .small {
+        font-size: 10pt;
+        margin-top: -2%;
+    }
+
+    .section-four {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .order-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .order-one {
+        width: 28%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    .tel {
+        width: 100%;
+        text-align: center;
+        font-size: 18pt;
+    }
+
+    .price {
+        font-size: 13pt;
+    }
+
+    .star {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .wait, .min, .aval, .hour {
+        font-size: 13pt;
+    }
+
+    .review {
+        font-size: 18pt;
+        font-weight: 800;
+        margin-top: 10%;
+    }
+
+    .rv-holder {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .rv-box {
+        width: 40%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 5%;
+    }
+
+    .timi {
+        height: 25%;
+        width: 13%;
+        margin-left: 40%;
+        border-radius: 50%;
+        border-style: inset;
+        border: 4px solid grey;
+    }
+
+    .bigger {
+        width: 100%;
+        text-align: center;
+        font-size: 15pt;
+        font-weight: 900;
+    }
+
+    .twink {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .life {
+        font-size: 11pt;
+    }
+
+    .section-five {
+        width: 85%;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+
+    .contact {
+        font-size: 18pt;
+    }
+
+    .contact-section {
+        padding-top: 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input {
+        width: 70%;
+        font-size: 10pt;
+        font-weight: 500;
+        padding-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 0%;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: dashed;
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    .message {
+        width: 70%;
+        font-size: 10pt;
+        font-weight: 500;
+        padding-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 0%;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: dashed;
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    .pic-wrapper {
+        width: 40%;
+        margin-top: -10%;
+    }
+
+    .linkup {
+        width: 90%
+    }
+
+    .submit {
+        width: 30%;
+        margin-left: 20%;
+        padding-top: 1.5%;
+        padding-bottom: 0.5%;
+        margin-top: 12%;
+    }
+
+    a {
+        font-size: 12pt;
+        height: 30px;
+        width: 6em;
+        margin-top: 0%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 2px solid wheat;
+
+    }
+
+    .boldd {
+        font-size: 16pt;
+    }
+
+    li {
+        font-size: 11pt;
+    }
+
+    .white-logo {
+        width: 15%;
+        margin-left: 40%;
+        margin-top: 0%;
+    }
 
 }

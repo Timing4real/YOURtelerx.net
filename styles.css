@@ -36,18 +36,21 @@ img {
 }
 
 input {
-    width: 80%;
-    margin-left: 10%;
-    border-style: dashed;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    border-bottom: 1px solid cornflowerblue;
-    margin-top: 10%;
-    font-size: 13pt;
-    line-height: 3%;
-}
+    border: none;
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0.6cap;
+    padding-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-weight: 900;
+  }
 
+  .fn {
+    margin-top: 10%;
+  }
+  
 input:hover {
     border-style: dotted;
     border-radius: 2ch;
@@ -73,12 +76,12 @@ button {
     color: white;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13pt;
+    font-size: 14pt;
     width: 100%;
     border: none;
     border-radius: 1ch;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
 }
 
 button:hover {
@@ -138,8 +141,8 @@ li {
 
 a {
     color: red;
-    font-weight: 800;
-    font-size: 20pt;
+    font-weight: 700;
+    font-size: 16pt;
     text-decoration: none;
 }
 
@@ -159,21 +162,22 @@ a:hover {
 }
 
 .input-wrapper {
-    width: 100%;
-    font-size: 1pt;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 10pt;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .date {
-    width: 45%;
-    font-size: 30pt;
+    width: 15%;
+    font-size: 10pt;
 }
 
 .slot {
     border: solid gray;
-    width: 35%;
+    width: 60%;
     margin-top: 10%;
     border-top-style: none;
     border-bottom-style: none;
@@ -183,21 +187,23 @@ a:hover {
     padding-top: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15pt;
+    font-weight: 700;
 }
 
 .appointment {
-    font-size: 90pt;
+    font-size: 20pt;
     width: 100%;
     text-align: center;
+    font-weight: 900;
 }
 
 .next {
-    width: 20%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    width: 10%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
     margin-top: 10%;
     margin-left: 5%;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 .next:hover {
@@ -209,6 +215,84 @@ a:hover {
     transition: all 1s;
     transition-duration: 1s;
     transform-style: unset;
+}
+
+/* patient section */
+
+.navigation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    margin-left: 5dvb;
+}
+
+.body-holder {
+    width: 80%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.patient-details {
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 18pt;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.options {
+    width: 100%;
+    margin-left: 40%;
+    font-weight: 900;
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.time-slot-wrap {
+    width: 40%;
+    padding-bottom: 2%;
+    border-left-style: dotted;
+}
+
+.time-slot {
+    width: 100%;
+    font-size: 14pt;
+    font-weight: 700; 
+}
+
+.calendar {
+    width: 70%;
+    font-size: 12pt;
+    font-weight: 100;
+}
+
+span {
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+.ptt-btn {
+    width: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    background-color:  blue;
+    color: white;
+    border: none;
+    border-radius: 1ch;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    margin-left: 50%;
+    margin-top: 3%;
 }
 
 
@@ -254,11 +338,13 @@ a:hover {
     }
     
     input {
-        margin-left: 5%;
-        width: 80%;
-        padding-bottom: 1%;
-        font-size: 12pt;
-        line-height: 40%;
+        height: 38px;
+        width: 430px;
+        border-radius: 0.6cap;
+        padding-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        font-weight: 900;
         border-top-style: none;
         border-left-style: none;
         border-right-style: none;
@@ -368,6 +454,86 @@ a:hover {
         display: block;
         margin-left: 50%;
     }
+
+
+      /* patient section */
+      .navigation {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16pt;
+        font-weight: 700;
+        margin-left: 5dvb;
+    }
+    
+    .body-holder {
+        width: 100%;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25pt;
+        font-weight: 700;
+    }
+    
+    .patient-details {
+        margin-top: 5%;
+        width: 50%;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        font-size: 18pt;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    
+    .options {
+        width: 100%;
+        margin-left: 40%;
+        font-weight: 900;
+        font-size: 15pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .time-slot-wrap {
+        width: 40%;
+        padding-bottom: 2%;
+        border-left-style: dotted;
+    }
+    
+    .time-slot {
+        width: 100%;
+        font-size: 14pt;
+        font-weight: 700; 
+    }
+    
+    .calendar {
+        width: 70%;
+        font-size: 12pt;
+        font-weight: 100;
+    }
+    
+    span {
+        font-weight: 500;
+        font-size: 12pt;
+    }
+    
+    .ptt-btn {
+        width: 10%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+        font-weight: 500;
+        background-color:  blue;
+        color: white;
+        border: none;
+        border-radius: 1ch;
+        padding-top: 0.6%;
+        padding-bottom: 0.6%;
+        margin-left: 50%;
+        margin-top: 3%;
+    }
+    
+
     
     
 

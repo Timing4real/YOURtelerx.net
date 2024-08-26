@@ -42,7 +42,7 @@
 
 .nav-but {
     display: none;
-    width: 50%;
+    width: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 11pt;
     font-weight: 500;
@@ -132,7 +132,7 @@
 
 .btn {
     display: block;
-    width: 80%;
+    width: 100%;
 }
 
 .butt {

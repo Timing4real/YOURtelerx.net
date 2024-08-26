@@ -40,7 +40,7 @@
     border-radius: 0ch;
 }
 
-button {
+.nav-but {
     display: none;
     width: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,13 +52,15 @@ button {
     border-radius: 1ch;
 }
 
-button:hover {
-    background-color: white;
+.nav-but:hover {
+    background-color: wheat;
     color: #3498db;
-    border-bottom-style: groove;
-    border-radius: 2ch;
-    border: solid #3498db;
-    transition-duration: 2s;
+    border-radius: 5ch;
+    border: 2px solid #3498db;
+    transform-origin: 10%;
+    transition: all 1s;
+    transition-duration: 1s;
+    transform-style: unset;
 }
 
 .section-one {
@@ -609,27 +611,40 @@ input:hover {
 
 .submit {
     display: block;
-    margin-top: 20%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    background-color: blue;
+    color: red;
     width: 20%;
     margin-left: 40%;
+    margin-top: 7%;
+    border: none;
+    border-radius: 1ch;
+}
+
+.submit:hover {
+    background-color: wheat;
+    transition: all .50s;
+    transition-duration: 0.3s;
+    color: #3498db;
+    border-bottom-style: groove;
+    border-radius: 3ch;
+    border: solid #3498db;
+    transform-origin: 5%;
 }
 
 a {
     display: inline-block;
     color: wheat;
-    height: 40px;
-    width: 5em;
-    font-size: 20pt;
+    width: 4em;
+    padding: 0.3em 0.10em;
+    height: fit-content;
+    font-size: 14pt;
     position: relative;
     overflow: hidden;
-    letter-spacing: 2px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
-    
+
 span:hover {
     background-color: blue;
     color: cornflowerblue;
@@ -649,9 +664,9 @@ a span {
     
 a span:nth-child(1) {
     top: 0;
-    left: -100%;
-    width: 100%;
-    height: 3px;
+    left: -50%;
+    width: 50%;
+    height: 2px;
     background-color: wheat;
     animation: animate1 1s linear infinite;
 }
@@ -662,16 +677,16 @@ a span:nth-child(1) {
     }
     50%,
     100% {
-      left: 100%;
+      left: 50%;
     }
 }
   
 a span:nth-child(2) {
     top: -100%;
     right: 0;
-    width: 3px;
-    height: 100%;
-    background-color: white;
+    width: 2px;
+    height: 50%;
+    background-color: wheat;
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -682,15 +697,15 @@ a span:nth-child(2) {
     }
     50%,
     100% {
-      top: 100%;
+      top: 50%;
     }
 }
   
 a span:nth-child(3) {
     bottom: 0;
     right: -100%;
-    width: 100%;
-    height: 3px;
+    width: 50%;
+    height: 2px;
     background-color: white;
     animation: animate3 1s linear infinite;
     animation-delay: 0.5s;
@@ -702,16 +717,16 @@ a span:nth-child(3) {
     }
     50%,
     100% {
-      right: 100%;
+      right: 50%;
     }
 }
   
 a span:nth-child(4) {
     bottom: -100%;
     left: 0;
-    width: 3px;
-    height: 100%;
-    background-color: white;
+    width: 2px;
+    height: 50%;
+    background-color: wheat;
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
@@ -722,12 +737,13 @@ a span:nth-child(4) {
     }
     50%,
     100% {
-      bottom: 100%;
+      bottom: 50%;
     }
 }
 
 a {
-    color: aqua;
+    color: white;
+    padding-top: 5%;
     text-decoration: dotted;
   }
   
@@ -950,13 +966,12 @@ ul {
         margin-left: 2%
     }
 
-    button {
+    .nav-but {
         display: block;
         width: 100%;
-        padding-top: 7%;
-        padding-bottom: 7%;
-        margin-top: 0%;
-        font-size: 20pt;
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+        font-size: 13pt;
     }
 
     .section-one {
@@ -1016,8 +1031,12 @@ ul {
         width: 100%;
     }
 
-    button {
+    .but {
         display: block;
+        width: 100%;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        font-size: 13pt;
     }
 
     .p-menu1 {
@@ -1311,11 +1330,24 @@ ul {
     .submit {
         width: 22%;
         margin-left: 30%;
-        padding-top: 1.5%;
-        padding-bottom: 0.5%;
         margin-top: 12%;
     }
 
+    a {
+        display: inline-block;
+        color: white;
+        padding: 0.0em 0.20em;
+        padding-top: 0.3em;
+        width: 2em;
+        height: fit-content;
+        font-size: 14pt;
+        position: relative;
+        overflow: visible;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    
     a {
         font-size: 13pt;
         height: 40px;

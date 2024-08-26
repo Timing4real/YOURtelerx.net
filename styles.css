@@ -220,10 +220,13 @@ a:hover {
 /* patient section */
 
 .navigation {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
     font-weight: 700;
-    margin-left: 5dvb;
 }
 
 .body-holder {
@@ -232,6 +235,7 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13pt;
     font-weight: 700;
+    margin-top: 5%;
 }
 
 .patient-details {
@@ -292,6 +296,19 @@ span {
     padding-bottom: 0.6%;
     margin-left: 50%;
     margin-top: 3%;
+}
+
+/* /* fifth-page  */
+
+.nav-content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.log {
+    width: 100%;
 }
 
 

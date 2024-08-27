@@ -5,23 +5,23 @@
 }
 
 .sec-nav-bar {
+    width: 9o%;
     background-color: blue;
     border: 10px solid grey;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 98%;
     border-style: inset;
 }
 
 img {
+    margin-left: 35%;
     width: 35%;
-    margin-left: 32%;
     align-self: center;
 }
 
 .login {
     width: 100%;
-    margin-left: 45%;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
     font-weight: 800;
@@ -37,7 +37,7 @@ img {
 }
 
 input {
-    width: 100%;
+    width: 80%;
     margin-left: 10%;
     font-size: 10pt;
     margin-top: 10%;
@@ -48,9 +48,8 @@ input {
 }
 
 button {
-    width: 20%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10pt;
+    font-size: 13pt;
     font-weight: 600;
     padding-top: 1.5%;
     padding-bottom: 1.8%;
@@ -92,142 +91,100 @@ input:hover {
     text-align: center;
 }
 
+/* reg.css */
 
-/* third page */
-
-.world-holder {
-    width: 100%;
+.reg-container {
+    width: 99.8%;
 }
 
-.third-nav-bar {
+.logo-section {
+    width: 99.7%;
     background-color: blue;
     border: 10px solid grey;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 98%;
     border-style: inset;
-    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-a {
-    text-decoration: none;
+img {
+    align-self: center;
+    width: 30%;
 }
 
-.appointment {
+.signup-place {
+    width: 100%;
+}
+
+.reg {
     width: 100%;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 22pt;
-    font-weight: 800;
-    margin-top: 3%
-}
-
-.booking-section {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.third-date {
-    font-size: 12pt;
-    width: 40%;
-    margin-top: -10%;
-    margin-right: 5%;
-}
-
-.slot {
-    width: 50%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13pt;
-    font-weight: 800;
-    border-left-style: dashed;
-    padding-bottom: 12%;
-    padding-left: 5%;
-}
-
-
-
-/* patient section */
-
-.navigation {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16pt;
-    font-weight: 700;
-}
-
-.body-holder {
-    width: 80%;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13pt;
-    font-weight: 700;
-    margin-top: 5%;
-}
-
-.patient-details {
-    margin-top: 5%;
-    width: 50%;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
-    font-size: 18pt;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-.options {
-    width: 100%;
-    font-weight: 900;
-    font-size: 15pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22pt;
+    font-weight: 900;
 }
 
-.time-slot-wrap {
-    width: 40%;
-    padding-bottom: 2%;
-    border-left-style: dotted;
-}
-
-.time-slot {
-    width: 100%;
+.pass {
     font-size: 14pt;
-    font-weight: 700; 
+    color: grey;
+    margin-top: -5%;
+    margin-left: 10%;
 }
 
-.calendar {
-    width: 70%;
-    font-size: 12pt;
-    font-weight: 100;
+input {
+    width: 80%;
+    border-style: dashed;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid cornflowerblue;
 }
 
-span {
-    font-weight: 500;
-    font-size: 12pt;
+input:hover {
+    background-color: cornflowerblue;
+    border-radius: 5ch;
+    border: 2px solid #3498db;
+    transform-origin: 10%;
+    transition: all 1s;
+    transition-duration: 1s;
+    transform-style: unset;
 }
 
-.ptt-btn {
-    width: 10%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14pt;
-    font-weight: 500;
-    background-color:  blue;
+button {
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    padding-top: 1.5%;
+    padding-bottom: 1.8%;
     color: white;
+    background-color: blue;
     border: none;
     border-radius: 1ch;
-    padding-top: 0.6%;
-    padding-bottom: 0.6%;
-    margin-left: 50%;
-    margin-top: 3%;
+    align-self: center;
+    margin-left: 40%;
+    margin-top: 10%;
 }
+
+button:hover {
+    background-color: wheat;
+    transition: all .50s;
+    transition-duration: 0.3s;
+    color: blue;
+    border-bottom-style: groove;
+    border-radius: 3ch;
+    border: .5px solid #3498db;
+    transform-origin: 5%;
+    border: solid blue;
+    border-style: dashed;
+}
+
+.register {
+    margin-top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 13pt;
+}
+
 
 /* fifth-page  */
 
@@ -249,13 +206,20 @@ span {
 
 
 
-
-
 @media (min-width:1024px) {
     /* second page */
 
     .major-container {
         width: 100%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .sec-nav-bar {
+        width: 30%;
     }
 
     .header {
@@ -270,7 +234,7 @@ span {
     }
 
     .logo-section {
-        width: 50%;
+        width: 40%;
         margin-left: 10%;
     }
 
@@ -279,235 +243,78 @@ span {
     }
 
     .login {
-        margin-left: 60%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-bottom: 0%;
         font-weight: 800;
-        font-size: 13pt;
+        font-size: 22pt;
+        padding-bottom: 10%;
     }
 
     input {
         width: 100%;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
     }
 
     .password {
         margin-left: 10%;
         font-size: 12pt;
-        margin-top: -20%;
+        margin-top: -28%;
     }
 
     button {
-        width: 30%;
-        margin-top: 30%;
-        margin-left: 70%;
+        width: 25%;
     }
 
     .register {
-        margin-left: 37%;
+        width: 60%;
+        text-align: center;
     }
 
 
-
-    
-
-    /* third page */
-
-    .world-holder {
+    /* register section */
+    .reg-container {
         width: 100%;
-    }
-
-    .third-nav-bar {
-        width: 40%;
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
-    .third-img {
-        width: 80%;
-    }
-
-    .appointment {
-        width: 100%;
-    }
-
-    .booking-section {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .third-date {
+        margin-left: 0%;
+        margin-right: 0%;
         margin-top: 0%;
-    }
-
-    
-
-
-
-      /* patient section */
-      .navigation {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 16pt;
-        font-weight: 700;
-        margin-left: 5dvb;
-    }
-    
-    .body-holder {
-        width: 100%;
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 25pt;
-        font-weight: 700;
-    }
-    
-    .patient-details {
-        margin-top: 5%;
-        width: 50%;
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 900;
-        font-size: 18pt;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    
-    .options {
-        width: 100%;
-        margin-left: 40%;
-        font-weight: 900;
-        font-size: 15pt;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    .time-slot-wrap {
-        width: 40%;
-        padding-bottom: 2%;
-        border-left-style: dotted;
-    }
-    
-    .time-slot {
-        width: 100%;
-        font-size: 14pt;
-        font-weight: 700; 
-    }
-    
-    .calendar {
-        width: 70%;
-        font-size: 12pt;
-        font-weight: 100;
-    }
-    
-    span {
-        font-weight: 500;
-        font-size: 12pt;
-    }
-    
-    .ptt-btn {
-        width: 10%;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 14pt;
-        font-weight: 500;
-        background-color:  blue;
-        color: white;
-        border: none;
-        border-radius: 1ch;
-        padding-top: 0.6%;
-        padding-bottom: 0.6%;
-        margin-left: 50%;
-        margin-top: 3%;
-    }
-    
-
-    
-    
-
-}
-
-
-
-@media (min-width:768px) {
-    .page-holder {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
     }
 
     .logo-section {
         width: 30%;
-        padding-top: 25%;
-        padding-bottom: 25%;
-        border-radius: 3ch;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-left: 0%;
     }
 
-    .login {
-        width: 10%;
-        text-align: center;
-        font-size: 30pt;
+    .reg {
+        margin-top: 10%;
     }
 
-    nput {
-        width: 70%;
-        font-size: 13pt;
+    img {
+        width: 60%;
+    }
+
+    .signup-place {
+        width: 40%;
     }
 
     .pass {
-        font-size: 18pt;
+        margin-top: -20%;
+    }
+
+    input {
+        width: 100%;
+        margin-top: 0%;
     }
 
     button {
-        font-size: 18pt;
+        width: 15%;
+        margin-top: 10%;
+        margin-left: 50%;
     }
 
-    .reg ul {
-        width: 25%;
+    .register {
+        margin-top: 20%;
+        width: 60%;
+        text-align: center;
+        font-weight: 800;
     }
-
-
-
-/* third page */
-
-world-holder {
-    width: 100%;
-}
-
-.logo {
-    width: 100%;
-}
-
-.navigation ul {
-    display: flex;
-    text-align: center;
-    width: 50%;
-}
-
-li {
-    font-size: 18pt;
-}
-
-.booking-place {
-    width: 100%;
-    font-size: 18pt;
-}
-
-.date {
-    font-size: 20pt;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.slot {
-    font-size: 18pt;
-    margin-top: -1%;
-}
-
-    
-}

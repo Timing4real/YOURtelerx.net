@@ -147,6 +147,7 @@ input:hover {
     transition: all 1s;
     transition-duration: 1s;
     transform-style: unset;
+    transform-origin: 10%;
 }
 
 button {
@@ -268,7 +269,7 @@ button:hover {
         width: 60%;
         text-align: center;
     }
-
+}
 
     /* register section */
     .reg-container {

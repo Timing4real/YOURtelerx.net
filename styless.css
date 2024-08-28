@@ -24,6 +24,45 @@ input {
     border-right-style: none;
     border-bottom-style: dashed;
 }
+  
+  .gender {
+    color: grey;
+    font-size: 12pt;
+    font-weight: 700;
+    padding-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+  }
+
+.gender:hover {
+    background-color: wheat;
+    border-radius: 5ch;
+    border-style: dashed;
+    border: 2px solid #3498db;
+    transform-origin: 10%;
+    transition: all 1s;
+    transition-duration: 1s;
+    transform-style: unset;
+    transform-origin: 10%;
+}
+  
+
+input:hover {
+    background-color: wheat;
+    border-radius: 5ch;
+    border-style: dashed;
+    border: 2px solid #3498db;
+    transform-origin: 10%;
+    transition: all 1s;
+    transition-duration: 1s;
+    transform-style: unset;
+    transform-origin: 10%;
+}
 
 .third-img {
     align-self: center;
@@ -52,7 +91,9 @@ a {
 }
 
 .third-date {
-    font-size: 12pt;
+    font-size: 15pt;
+    font-weight: 900;
+    color: grey;
     width: 40%;
     margin-top: -10%;
     margin-right: 5%;
@@ -169,9 +210,10 @@ button:hover {
 }
 
 .calendar {
-    width: 70%;
-    font-size: 12pt;
-    font-weight: 100;
+    width: 80%;
+    font-size: 15pt;
+    color: grey;
+    font-weight: 800;
 }
 
 span {
@@ -194,7 +236,49 @@ span {
     margin-top: 3%;
 }
 
+/* last */ 
 
+.cp {
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+}
+
+.message {
+    width: 50%;
+    margin-left: 27%;
+    font-size: 13pt;
+    padding-top: 20%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed; 
+}
+
+.text {
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 7%;
+    font-size: 15pt;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+}
+
+.message:hover {
+    background-color: wheat;
+    border-radius: 5ch;
+    border-style: dashed;
+    border: 2px solid #3498db;
+    transform-origin: 10%;
+    transition: all 1s;
+    transition-duration: 1s;
+    transform-style: unset;
+    transform-origin: 10%;
+}
 
 
 

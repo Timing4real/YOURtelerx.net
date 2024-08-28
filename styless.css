@@ -140,13 +140,14 @@ button:hover {
 /* patient section */
 
 .navigation {
-    width: 99%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    align-items: center;
     background-color: blue;
     border: 10px solid grey;
-    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 99.3%;
+    border-style: inset;
+    margin-bottom: 5%;
+
 }
 
 .forth-img {
@@ -179,6 +180,12 @@ button:hover {
 .timmy {
     width: 100%;
     color: red;
+}
+
+.timmy-1 {
+    width: 100%;
+    color: red;
+    margin-top: -120%;
 }
 
 .ant-space-item {

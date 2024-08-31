@@ -259,6 +259,7 @@ span {
 .message {
     width: 50%;
     margin-left: 27%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 13pt;
     padding-top: 20%;
     border-top-style: none;
@@ -271,6 +272,7 @@ span {
 .text {
     width: 50%;
     margin-left: 27%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 7%;
     font-size: 15pt;
     border-top-style: none;

@@ -82,11 +82,11 @@
 .health {
     margin-top: 20%;
     position: relative;
-    width: 95%;
+    width: 90%;
     letter-spacing: 0.1ch;
     padding-left: 4%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 1ch;
     background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,30 +104,32 @@
 .word-1 {
     width: 98%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
     margin-left: 1%;
 }
 
 .word-2 {
     width: 98%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
     margin-left: 1%;
+    margin-top: -0%;
 }
 
 .mark-2 {
-    width: 9%;
+    width: 7%;
+    margin-top: -2%;
 }
 
 .mark {
-    width: 10%;
+    width: 7%;
 }
 
 .word {
     margin-left: 1%;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
 }
 
 .btn {
@@ -244,7 +246,7 @@
 }
 
 .info-img-drug {
-    width: 30%;
+    width: 27%;
     position: relative;
     border-radius: 10%;
     margin-left: 35%;
@@ -265,7 +267,7 @@
 
 .bold-1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12pt;
+    font-size: 25pt;
     width: 100%;
     margin-top: 10%;
     text-align: center;
@@ -278,7 +280,7 @@
     margin-right: auto;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 29pt;
+    font-size: 22pt;
     opacity: 0.5;
 }
 
@@ -401,7 +403,7 @@
     width: 100%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30pt;
+    font-size: 24pt;
     margin-top: -8%;
     opacity: 0.6;
 }
@@ -555,7 +557,7 @@
     width: 100%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30pt;
+    font-size: 25pt;
     color: grey;
 }
 
@@ -623,7 +625,7 @@ input {
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: dashed;
-    border-bottom: 2px solid blue;
+    border-color: blue;
 }
 
 input:hover {
@@ -954,6 +956,10 @@ ul {
     margin-left: -15%;
 }
 
+.links-1 {
+    margin-left: 2%;
+}
+
 .links-1 ul {
     width: 100%;
     text-align: center;
@@ -999,7 +1005,7 @@ ul {
     }
 
     .coy-logo {
-        width: 15%;
+        width: 18%;
         margin-left: 2%
     }
 
@@ -1021,9 +1027,13 @@ ul {
     }
 
     .health {
-        width: 100%;
-        font-size: 14pt;
-        margin-bottom: 10%;
+        width: 60%;
+        font-size: 16pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 5%;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+        padding-left: 2%;
     }
 
     .line {
@@ -1033,11 +1043,11 @@ ul {
     }
 
     .mark {
-        width: 8%;
+        width: 4%;
     }
 
-    .mark-2 {
-        margin-bottom: 5%;
+    .mark-2 {width: 4%;
+        margin-top: -7%;
     }
 
     .word {
@@ -1049,7 +1059,7 @@ ul {
     .word-1 {
         width: 100%;
         font-size: 13pt;
-        margin-left: 0%;
+        margin-left: 1%;
     }
 
     .word-2 {
@@ -1057,10 +1067,11 @@ ul {
         font-size: 13pt;
         margin-left: 1%;
         margin-bottom: 10%;
+        margin-top: 2%;
     }
 
     .doc-image {
-        width: 30%;
+        width: 35%;
         margin-right: 5%;
     }
 
@@ -1068,12 +1079,15 @@ ul {
         width: 100%;
     }
 
-    .but {
+    .butt {
         display: block;
-        width: 100%;
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-        font-size: 13pt;
+        width: 7em;
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+        font-size: 15pt;
+        font-weight: 800;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: white;
     }
 
     .p-menu1 {

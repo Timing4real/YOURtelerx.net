@@ -134,6 +134,7 @@
 .btn {
     display: block;
     width: 100%;
+    margin-left: 5%;
 }
 
 .butt {
@@ -247,7 +248,7 @@ img {
     width: 22%;
     position: relative;
     border-radius: 10%;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 5%;
     border: 2px solid brown;
     margin-bottom: -6%;
@@ -968,7 +969,7 @@ ul {
 
 
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
     .universal-content {
         width: 100%;
     }
@@ -1432,7 +1433,8 @@ ul {
 
 
 
-/*@media (min-width:768px) {
+
+/*@media (min-width: 768px) {
 
     .universal-content {
         width: 100%;
@@ -1814,7 +1816,6 @@ ul {
         align-items: center;
         justify-content: space-around;
         border-bottom: 2px solid wheat;
-
     }
 
     .boldd {
@@ -1831,4 +1832,284 @@ ul {
         margin-top: 0%;
     }
 
+}
+
+
+@media (min-width: 475px) {
+    .universal-content {
+        width: 100%;
+    }
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+    }
+
+    .coy-logo {
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    .items {
+        width: 35%;
+    }
+
+    .nav-but {
+        display: none;
+        width: 20%;
+    }
+
+    .section-one {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 98.9%;
+    }
+
+    .heaith-section {
+        width: 90%;
+    }
+
+    .health {
+        margin-top: 20%;
+        position: relative;
+        width: 90%;
+    }
+
+    .line {
+        display: flex;
+    }
+
+    .word-1 {
+        width: 98%;
+    }
+
+    .word-2 {
+        width: 98%;
+    }
+
+    .mark-2 {
+        width: 7%;
+        margin-top: -2%;
+    }
+
+    .mark {
+        width: 7%;
+    }
+
+    .word {
+        margin-left: 1%;
+        width: 100%;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .butt {
+        display: block;
+        width: 100%;
+    }
+
+    .doc-image {
+        width: 60%;
+        margin-right: 25%;
+    }
+    
+    img {
+        width: 60%;
+        margin-left: 5%;
+    }
+    
+    .section-two {
+        width: 90%;
+    }
+
+    .info-boxes {
+        width: 100%;
+    }
+
+    .how-it {
+        width: 100%;
+    }
+
+    .box-one {
+        width: 75%;
+    }
+
+    .box-two {
+        width: 75%;
+    }
+
+    .box-three {
+        width: 75%;
+    }
+
+    .info-img {
+        width: 50%;
+    }
+
+    .info-img-drug {
+        width: 22%;
+        position: relative;
+    }
+
+    .bold {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 28pt;
+        width: 100%;
+    }
+
+    .bold-1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14pt;
+        width: 100%;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .section-three {
+        width: 90%;
+    }
+
+    .section-wrapper {
+        display: flex;
+    }
+
+    .num-one {
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .img-keep {
+        width: 30%;
+    }
+
+    .img-keep-1 {
+        width: 30%;
+    }
+
+    .dsc {
+        width: 100%;
+    }
+
+    .dsc-1 {
+        width: 100%;
+    }
+
+    .num-two {
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .num-three {
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .appt {
+        width: 100%;
+    }
+
+    .coy-name {
+        width: 96%;
+    }
+
+    .big {
+        width: 100%;
+    }
+
+    .small {
+        width: 100%;
+    }
+
+    .section-four {
+        width: 90%;
+    }
+
+    .order-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-one {
+        margin-top: 15%;
+        width: 60%;
+    }
+
+    .tel {
+        width: 100%;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+    .rv-holder {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-five {
+        width: 98%;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        height: 40px;
+        width: 90%;
+    }
+
+    .message {
+        height: 40px;
+        width: 90%;
+    }
+
+    .submit {
+        display: block;
+    }
+
+    .menu1 {
+        width: 40%;
+    }
+
+    .section-six {
+        width: 100%;
+    }
+
+    .white-logo {
+        margin-top: 2%;
+        margin-left: 35%;
+        width: 30%;
+    }
+    
+    .footer {
+        width: 72%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
 }

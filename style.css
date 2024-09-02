@@ -217,9 +217,9 @@ img {
 
 .box-one:hover {
     background-color: cornflowerblue;
-    transition-duration: 0.3s;
     cursor: pointer;
-    transition: all .55s;
+    transition: all .5s;
+    transition-duration: 0.2s;
 }
 
 .box-two:hover {
@@ -431,6 +431,14 @@ img {
     box-shadow: 1px 4px 4px 4px rgba(0,0,0,0.3);
 }
 
+.order-one:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+    transition: all 2s;
+    transition-duration: 2s;
+    transform-origin: 2%;
+}
+
 .tel {
     width: 100%;
     text-align: center;
@@ -518,6 +526,14 @@ img {
     padding-left: 2%;
     padding-right: 1%;
     margin-top: 15%;
+}
+
+.rv-box:hover {
+    background-color: yellow;
+    cursor: pointer;
+    transition: all 5s;
+    transition-duration: 2s;
+    transform-origin: 5ch;
 }
 
 .timi {

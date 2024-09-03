@@ -37,7 +37,6 @@
 
 .coy-logo:hover {
     background-color: white;
-    border-radius: 0ch;
 }
 
 .nav-but {
@@ -75,7 +74,6 @@
     width: 90%;
     margin-left: 3%;
     margin-right: 3%;
-
 }
 
 .health {
@@ -235,7 +233,6 @@ img {
     cursor: pointer;
     transition: all .55s;
 }
-
 
 .info-img {
     width: 50%;
@@ -970,7 +967,7 @@ ul {
 }
 
 .social-icon {
-    width: 10%
+    width: 10%;
 }
 
 .copyright {
@@ -1872,7 +1869,7 @@ ul {
     .img-keep {
         width: 30%;
         margin-top: 3%;
-        margin-left: 35%
+        margin-left: 35%;
     }
 
     .dsc {
@@ -2056,7 +2053,7 @@ ul {
     }
 
     .linkup {
-        width: 100%
+        width: 100%;
     }
 
     .submit {
@@ -2105,7 +2102,6 @@ ul {
         align-items: center;
         justify-content: space-around;
         border-bottom: 2px solid wheat;
-
     }
 
     .boldd {
@@ -2122,10 +2118,4 @@ ul {
         margin-top: 0%;
     }
     
-}
-
-@media (min-width: 1280px) {
-
-}
-@media (min-width: 1536px) {
 }

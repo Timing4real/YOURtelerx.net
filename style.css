@@ -9,6 +9,7 @@
     height: 90px;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-bottom: 2%;
     border-bottom-right-radius: 6.5ch;
     border: 1.7px solid #3498db;
     border-style: inset;
@@ -159,11 +160,31 @@
 }
 
 .trip {
-    width: 45%;
+    width: 30%;
 }
 
 .sem {
-    width: 55%;
+    width: 35%;
+    margin-bottom: 1%;
+}
+
+.advert {
+    font-family: monospace;
+    font-size: 20pt;
+    font-weight: 600;
+    color: blue;
+}
+
+.advert:hover {
+    width: 60%;
+    text-align: center;
+    border-radius: 20ch;
+    border-style: ridge;
+    background-color: blue;
+    color: white;
+    transform-style: preserve-3d;
+    transition-duration: 5s;
+    transition-delay: 1s;
 }
 
 .doc-image {
@@ -409,7 +430,7 @@ img {
     width: 100%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 19pt;
+    font-size: 13pt;
     margin-top: -8%;
     opacity: 0.5;
 }
@@ -1761,6 +1782,21 @@ ul {
     .doc {
         width: 100%;
     }
+
+    .advert {
+        font-family: monospace;
+        font-size: 14pt;
+        font-weight: 600;
+        width: 90%;
+        text-align: center;
+        border-radius: 20ch;
+        border-style: ridge;
+        background-color: blue;
+        color: white;
+        transform-style: preserve-3d;
+        transition-duration: 2s;
+        transition-delay: 2s;
+    }        
 
     .butt {
         display: block;

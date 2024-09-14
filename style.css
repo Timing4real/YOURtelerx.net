@@ -5,10 +5,12 @@
 }
 
 .navbar {
-    height: 80px;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-bottom-right-radius: 6.5ch;
+    border: 1.7px solid #3498db;
+    border-style: inset;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +18,7 @@
 }
 
 .coy-logo {
-    width: 50%;
+    width: 60%;
     margin-left: 2%;
 }
 
@@ -77,7 +79,7 @@
 }
 
 .health {
-    margin-top: 20%;
+    margin-top: 10%;
     position: relative;
     width: 90%;
     letter-spacing: 0.1ch;
@@ -164,8 +166,8 @@
 }
 
 .doc-image {
-    width: 60%;
-    margin-right: 25%;
+    width: 80%;
+    margin-right: 0%;
 }
 
 img {

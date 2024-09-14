@@ -155,6 +155,14 @@
     transition: all .55s;
 }
 
+.trip {
+    width: 45%;
+}
+
+.sem {
+    width: 55%;
+}
+
 .doc-image {
     width: 60%;
     margin-right: 25%;

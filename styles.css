@@ -2,10 +2,6 @@
 
 .major-container {
     width: 100%;
-    background-image: url(images/Drug.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .login-section {

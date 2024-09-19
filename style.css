@@ -81,6 +81,7 @@
     margin-right: 3%;
     border-radius: 1.5ch;
     box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+    padding-bottom: 3%;
 }
 
 .health {
@@ -255,6 +256,8 @@ img {
     border: 0.1px solid grey;
     margin-top: 10%;
     box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+    padding-top: 2.2%;
+    padding-bottom: 3.5%;
 }
 
 .box-one:hover {
@@ -289,6 +292,7 @@ img {
     position: relative;
     border-radius: 10%;
     margin-left: 40%;
+    margin-bottom: 2.2%;
     margin-top: 10%;
     border: 2px solid brown;
     box-shadow: 3px 3px 3px 10px rgba(0,0,0, 0.1);
@@ -428,6 +432,10 @@ img {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 30%;
+    box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+    border-radius: 8%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 .big {
@@ -545,6 +553,8 @@ img {
     font-size: 60pt;
     margin-top: 25%;
     font-weight: 900;
+    box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+    border-radius: 50%;
 }
 
 .rv-holder {
@@ -622,6 +632,8 @@ img {
     font-size: 50pt;
     font-weight: 800;
     margin-top: 5%;
+    box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+    border-radius: 50%;
 }
 
 .contact-section {
@@ -636,6 +648,14 @@ img {
     border-radius: 1ch;
     box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
     padding-bottom: 5%;
+}
+
+.contact-section:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: all 5s;
+    transition-duration: 2s;
+    transform-origin: 5ch;
 }
 
 input {
@@ -1220,8 +1240,15 @@ ul {
 
     .coy-name {
         width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 30%;
+        box-shadow: 10px 7px 10px 2px rgba(0,0,0, 0.6);
+        border-radius: 8%;
+        border-top-right-radius: 100%;
+        border-top-left-radius: 50%;
     }
-
+    
     .big {
         width: 100%;
     }

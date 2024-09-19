@@ -3,13 +3,6 @@
     width: 100%;
 }
 
-.world-holder {
-    background-image: url(images/TRI.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: unset;
-}
-
 .third-nav-bar {
     background-color: blue;
     border: 10px solid grey;
